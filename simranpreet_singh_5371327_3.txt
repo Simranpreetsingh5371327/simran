@@ -1,0 +1,99 @@
+   Assignment - 3
+simranpreet singh, 5371327
+
+
+first index - html file
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> lithuanian flag </title>
+        <link rel="stylesheet" href="index1.css">
+    </head>
+     <body>
+    
+    
+    <div class="content" id="first"> </div> 
+    <div  class="content" id="second"> </div>  
+    <div  class="content" id="third"> </div> 
+     
+</body>
+</html>
+
+first css file - 
+
+div.content{
+    width : 400px ;
+    height : 80px;
+}
+
+div#first{
+     background-color: yellow;
+}
+div#second{
+     background-color: green;
+     }
+
+div#third{
+    background-color: red;
+}
+
+
+second index - html file
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Romanian Flag </title>
+        <link rel="stylesheet" href="index2.css">
+    </head>
+     <body>
+     <div class="content"> </div> 
+</body>
+</html>
+
+second css file - 
+
+div.content{
+    width : 133px ;
+    height : 240px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-left: 133px solid blue;
+    border-right: 133px solid red;
+    background-color: yellow;
+}
+
+
+third index - html file
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> hot air balloon </title>
+        <link rel="stylesheet" href="index3.css">
+    </head>
+     <body>
+    <div class="content"></div>
+    <div class="content" id="first">  
+ <img src=https://www.productsafety.gov.au/sites/default/files/Balloons.jpg alt=""/>
+    </div>
+</body>
+</html>
+
+
+third css file -
+
+div.content{
+    width : 300px ;
+    height : 375px;
+    margin-top: 100px;
+    margin-left: 100px;
+   border: 5px red dashed;}
+   div#first{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 5px;
+   padding-left: 5px;
+}
