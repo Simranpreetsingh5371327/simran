@@ -1,0 +1,15 @@
+div.content{
+    width : 400px ;
+    height : 80px;
+}
+
+div#yellow{
+     background-color: yellow;
+}
+div#green{
+     background-color: green;
+     }
+
+div#red{
+    background-color: red;
+}
