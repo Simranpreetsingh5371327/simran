@@ -1,0 +1,95 @@
+<?php
+	//1 answer
+	$a = 5;
+	echo "\n".$a;
+	$b = 12.456;
+	var_dump($b);
+	$str = "simranpreetsingh";
+	echo "\n".$str;
+	//2 answer
+	$str1 = "web";
+	$str2 = "programming";
+	$str3 = $str1.$str2;
+	echo "\n".$str3;
+	//3 answer
+	$arr1 = array("Toronto","Delhi","Montreal","Brampton","London",);
+	echo $arr1[0];
+// second way
+$arr2 = array();
+$arr[0] = "Toronto";
+$arr[1] = "Delhi";
+$arr[2] = "Montreal";
+$arr[3] = "Brampton";
+$arr[4] = "London";
+echo $arr[0];
+//4 answer
+$arr4 = array("5","6","7","8","10",);
+$sum = $arr4[0]+$arr4[1]+$arr4[2]+$arr4[3]+$arr4[4];
+echo $sum;
+// 2 part
+$num = $sum;
+if($num>135){
+  echo "Big";
+}
+else{
+  echo "Small";
+}
+//5 answer
+	$str4 = " this is a php program ";
+	//5.1
+	$str4=trim($str4);
+	echo "\n".$str4;
+	//5.2
+	echo strlen($str4);
+	//5.3
+	echo ucfirst($str4);
+	//5.4
+	echo str_word_count($str4);
+	//5.5
+	echo str_replace("program", "snippet", $str4);
+	//6 answer
+	function check($num) {
+	 if($num == 0)
+	 return 1;
+	 else if($num == 1)
+	 return 0;
+	 else if($num<0)
+	 return check(-$num);
+	 else
+	 return check($num-2);
+	}
+	 $num = 5;
+	 if(check($num))
+	   echo "even";
+	   else
+	   echo "odd";
+	   //7 answer
+	   $x = 1;
+	   $sum = 0;
+	   //using while loop
+	   while($x<=15){
+	     $sum =$sum + $x;
+	     $x = $x+1;
+	     }
+	 echo $sum; 
+	 //8 answer
+	/*$y = 5;
+	$z = ;
+	if($y>18&&<30){
+  echo $z = "young";
+}
+else if($y>30&&<50)
+{
+  echo  $z = "middle age";
+}
+  else ($y>50&&<30){
+    echo  $z = "old"
+  }
+	 */
+//9 answer
+//for ($num = 2; $num>)
+//10 answer
+echo "<b>Today is :</b>". date("m/d/y")."<br>";
+echo "The time is :". date("H:i:s");
+
+?>
